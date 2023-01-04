@@ -1,0 +1,36 @@
+.header-container{
+    background-image: url('../../assets/head.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: large;
+}
+
+.nav-item{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+
+}
+.nav-item:hover{
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+}
