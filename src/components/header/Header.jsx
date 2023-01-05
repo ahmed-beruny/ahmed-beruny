@@ -28,7 +28,7 @@ export default function Header() {
     </div>
 
 
-      <h4 className='head-text'></h4>
+      <h1 className='head-text'>. . .</h1>
     </div>
   )
 }

@@ -53,18 +53,10 @@
     transition: width 1s;
 }
 
-.html .progress-line span{
+.dotnet .progress-line span{
     width: 90%;
 }
 
-.css .progress-line span{
+.nodejs .progress-line span{
     width: 70%;
-}
-
-.react .progress-line span{
-    width: 60%;
-}
-
-.js .progress-line span{
-    width: 80%;
 }

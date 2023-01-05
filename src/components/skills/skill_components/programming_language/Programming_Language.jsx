@@ -6,7 +6,7 @@ export default function Programming_Language() {
     <div className='pl-skill-card'>
         <div className='skill-title'>Programming Language</div>
         <div className='skill-element'>
-            <span className='progress-title c++'>C++</span>
+            <span className='progress-title cpp'>C++</span>
         <div className='progress-line'><span></span></div>
         </div>
 
@@ -15,7 +15,7 @@ export default function Programming_Language() {
             <div className='progress-line'><span></span></div>
         </div>
 
-        <div className='skill-element c#'>
+        <div className='skill-element chash'>
             <span className='progress-title'>C#</span>
         <div className='progress-line'><span></span></div>
         </div>

@@ -1,7 +1,7 @@
 .home-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-inline: 10%;
     height: 100vh;
     padding-top: 5%;
@@ -49,4 +49,9 @@
     margin-right: 20px;
     margin-top: 50px;
     border-radius: 20%;
+    transition: transform 0.5s;
+}
+
+.home-img:hover{
+    transform: scale(1.1);
 }

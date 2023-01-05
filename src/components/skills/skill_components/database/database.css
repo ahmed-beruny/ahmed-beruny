@@ -53,18 +53,14 @@
     transition: width 1s;
 }
 
-.html .progress-line span{
-    width: 90%;
-}
-
-.css .progress-line span{
+.mysql .progress-line span{
     width: 70%;
 }
 
-.react .progress-line span{
+.mongodb .progress-line span{
     width: 60%;
 }
 
-.js .progress-line span{
-    width: 80%;
+.firebase .progress-line span{
+    width: 70%;
 }
