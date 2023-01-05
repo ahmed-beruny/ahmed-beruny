@@ -28,7 +28,7 @@ export default function Header() {
     </div>
 
 
-      <h4 className='head-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illum quisquam, eligendi vel repellat eveniet.</h4>
+      <h4 className='head-text'></h4>
     </div>
   )
 }

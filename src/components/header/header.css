@@ -13,6 +13,7 @@
 }
 
 .nav-bar{
+    position: sticky;
     display: flex;
     margin-left: 0;
     transition: 0.5s;
@@ -119,8 +120,7 @@
         cursor: pointer;
         border-radius: 5px;
     }
-    .nav-item:hover{
-    }
+
     .head-text{
         position: absolute;
         bottom: 20%;

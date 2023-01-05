@@ -1,0 +1,8 @@
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-inline: 10%;
+    height: 100vh;
+    padding-top: 5%;
+}

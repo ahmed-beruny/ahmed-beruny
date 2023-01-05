@@ -1,0 +1,44 @@
+.pl-skill-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 43, 36);
+    align-items: left;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.skill-title{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.progress-title{
+
+}
+
+.skill-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.progress-line{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.progress-line span{
+    display: block;
+    height: 100%;
+    background-color: rgb(255, 0, 140);
+    border-radius: 5px;
+    width: 80%;
+    transition: width 1s;
+}
