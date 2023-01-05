@@ -37,7 +37,7 @@
 .progress-line span{
     display: block;
     height: 100%;
-    background-color: rgb(255, 0, 140);
+    background-color: rgb(250, 8, 141);
     border-radius: 5px;
     width: 80%;
     transition: width 1s;
