@@ -1,7 +1,6 @@
 import React from 'react'
 import './skills.css'
 import Backend from './skill_components/backend/Backend'
-import Database from './skill_components/database/Database'
 import Frontend from './skill_components/frontend/Frontend'
 import ProgrammingLanguage from './skill_components/programming_language/Programming_Language'
 export default function Skills() {
@@ -14,7 +13,6 @@ export default function Skills() {
         <Frontend />
         <Backend />
         <ProgrammingLanguage />
-        <Database />
   
       </div>
       

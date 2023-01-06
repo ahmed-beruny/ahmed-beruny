@@ -8,19 +8,24 @@ export default function Home() {
 
       <div className='home-socials'>
           <div className="socials github">
-            <i class="uil uil-github-alt"></i>
+            <a href="https://github.com/ahmed-beruny" target="_blank"><i class="uil uil-github-alt"></i></a>
+            
           </div>
           <div className="socials linkedin">
-          <i class="uil uil-linkedin"></i>
+            <a href="https://www.linkedin.com/in/ahmedberuny/" target="_blank"><i class="uil uil-linkedin"></i></a>
+          
           </div>
           <div className="socials insta">
-          <i class="uil uil-instagram"></i>
+            <a href="https://www.instagram.com/ahmedberuny/" target="_blank"><i class="uil uil-instagram"></i></a>
+          
           </div>
           <div className="socials fb">
-          <i class="uil uil-facebook-f"></i>
+            <a href="https://www.facebook.com/ahmed.beruny/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+          
           </div>
           <div className="socials discord">
-          <i class="uil uil-discord"></i>
+            <a href="https://discord.gg/KR3Gc2q6tC" target="_blank"><i class="uil uil-discord"></i></a>
+          
           </div>
       </div>
 

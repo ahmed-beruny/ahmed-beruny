@@ -16,47 +16,23 @@
 }
 
 
-.skill-title{
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.progress-title{
-    font-size: 1.1rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-}
-
-
-.skill-element{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.progress-line{
-    height: 10px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-.progress-line span{
-    display: block;
-    height: 100%;
-    background-color: rgb(250, 8, 141);
-    border-radius: 5px;
+.dotnet{
     width: 80%;
-    transition: width 1s;
 }
 
-.dotnet .progress-line span{
-    width: 90%;
+.nodejs{
+    width: 70%;
 }
 
-.nodejs .progress-line span{
+.mysql{
+    width: 70%;
+}
+
+.mongodb{
+    width: 60%;
+}
+
+.firebase{
     width: 70%;
 }

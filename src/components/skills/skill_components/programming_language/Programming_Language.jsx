@@ -6,28 +6,28 @@ export default function Programming_Language() {
     <div className='pl-skill-card'>
         <div className='skill-title'>Programming Language</div>
         <div className='skill-element'>
-            <span className='progress-title cpp'>C++</span>
-        <div className='progress-line'><span></span></div>
+            <span className='progress-title'>C++</span>
+        <div className='progress-line'><span className='cpp'></span></div>
         </div>
 
-        <div className='skill-element javascript'>
+        <div className='skill-element'>
             <span className='progress-title'>Javascript</span>
-            <div className='progress-line'><span></span></div>
+            <div className='progress-line'><span className='javascript'></span></div>
         </div>
 
-        <div className='skill-element chash'>
+        <div className='skill-element'>
             <span className='progress-title'>C#</span>
-        <div className='progress-line'><span></span></div>
+        <div className='progress-line'><span className='chash'></span></div>
         </div>
 
-        <div className='skill-element python'>
+        <div className='skill-element'>
             <span className='progress-title'>Python</span>
-        <div className='progress-line'><span></span></div>
+        <div className='progress-line'><span className='python'></span></div>
         </div>
 
-        <div className='skill-element typescript'>
+        <div className='skill-element'>
             <span className='progress-title'>Typescript</span>
-        <div className='progress-line'><span></span></div>
+        <div className='progress-line'><span className='typescript'></span></div>
         </div>
     </div>
   )

@@ -1,13 +1,14 @@
 .header-container{
-    background-image: url('../../assets/black_white.jpg');
+    background-image: url('../../assets/black_white1.jpg');
     background-size: cover;
-    height: 350px;
+    background-attachment: fixed;
+    height: 100vh;
     color: #fff;
     padding: 10px;
     position: relative;
     transition: all 0.5s;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 
 
 }
@@ -76,17 +77,24 @@
     right: 20%;
 }
 
+@media screen and (max-width: 1024px) {
+    .header-container{
+        background-image: url('../../assets/black_white.jpg');
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav-bar-center{
         position: absolute;
         display: block;
         top: 80px;
-        transition: 0.5s;
     }
 
     .header-container{
-        height: 600px;
+        height: 100vh;
         transition: 0.5s;
+        background-image: url('../../assets/black_white.jpg');
+
     }
     .toggle{
         display: block;

@@ -13,7 +13,6 @@ function App() {
       <Header />
       <Home />
       <Skills />
-      <Services />
       <About />
       <Contacts />
       <Footer />

@@ -1,8 +1,18 @@
 .about-container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     margin-inline: 10%;
     height: 100vh;
     padding-top: 5%;
+}
+
+.about-detail-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

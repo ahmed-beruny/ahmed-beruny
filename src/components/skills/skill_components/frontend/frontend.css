@@ -16,55 +16,22 @@
 }
 
 
-.skill-title{
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    text-align: center;
+.html{
+    width: 85%;
 }
 
-.progress-title{
-    font-size: 1.1rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-}
-
-
-.skill-element{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.progress-line{
-    height: 10px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-.progress-line span{
-    display: block;
-    height: 100%;
-    background-color: rgb(250, 8, 141);
-    border-radius: 5px;
-    width: 80%;
-    transition: width 1s;
-}
-
-.html .progress-line span{
-    width: 90%;
-}
-
-.css .progress-line span{
+.css{
     width: 70%;
 }
 
-.react .progress-line span{
-    width: 60%;
+.react{
+    width: 75%;
 }
 
-.js .progress-line span{
+.js{
     width: 80%;
+}
+
+.asp{
+    width: 60%;
 }
