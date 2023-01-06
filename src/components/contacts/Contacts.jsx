@@ -2,7 +2,7 @@ import React from 'react'
 import './contacts.css'
 export default function Contacts() {
   return (
-    <div className='contacts-container'>
+    <div className='contacts-container' id='contact'>
 
       <div className='contacts-title'>
         <h1>Contacts</h1>

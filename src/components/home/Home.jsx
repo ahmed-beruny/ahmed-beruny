@@ -4,7 +4,7 @@ import myImg from '../../assets/head.jpg'
 
 export default function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='home'>
 
       <div className='home-socials'>
           <div className="socials github">

@@ -5,7 +5,7 @@ import Frontend from './skill_components/frontend/Frontend'
 import ProgrammingLanguage from './skill_components/programming_language/Programming_Language'
 export default function Skills() {
   return (
-    <div className='skills-container'>
+    <div className='skills-container' id='skills'>
       <div className='skills-title'>
         <h1>Skills</h1>
       </div>
