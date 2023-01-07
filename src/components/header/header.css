@@ -20,6 +20,10 @@
     transition: 0.5s;
 }
 
+.nav-bar a{
+    color: #fff;
+}
+
 .logo{
     font-family: 'Yeon Sung', cursive;
     font-size: xx-large;
@@ -55,6 +59,7 @@
     top: 15px;
     right: 20px;
 }
+
 
 
 .nav-item{
@@ -94,7 +99,6 @@
         height: 100vh;
         transition: 0.5s;
         background-image: url('../../assets/black_white.jpg');
-
     }
     .toggle{
         display: block;
@@ -111,7 +115,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
         margin: 5px;
         border-radius: 5px;
     }
