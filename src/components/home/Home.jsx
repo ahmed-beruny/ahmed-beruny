@@ -31,8 +31,8 @@ export default function Home() {
 
       <div className="home-intro">
 
-        <h1>Ahmed Al Beruny</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa neque alias rerum placeat officiis quia delectus libero ex rem laborum.</p>
+        <h1>I'm <br/>Ahmed Al Beruny</h1>
+        <p>I am a computer science learner with a strong interest in software engineering and programming. I have always been drawn to the field of technology and the endless possibilities it holds for solving problems and creating new solutions. Throughout my studies and professional experience, I have developed a strong foundation in programming languages and software development, and I am eager to continue learning and growing in this field. I hope to make a meaningful impact through my work and contribute to the development of innovative and impactful software.</p>
 
       </div>
       <div>

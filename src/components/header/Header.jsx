@@ -29,7 +29,7 @@ export default function Header() {
     </div>
 
 
-      <h1 className='head-text'>. . .</h1>
+      <h2 className='head-text'><h1>Hello . . !</h1><br/><div className='texts'>I am thrilled that you have taken the time to visit and learn more about my work. Please take a look around and feel free to reach out with any questions or comments you may have.</div></h2>
     </div>
   )
 }

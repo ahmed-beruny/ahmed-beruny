@@ -1,10 +1,10 @@
 .home-container{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 2%;
+    margin-bottom: 20%;
     margin-inline: 10%;
-    margin-top: 30%;
-    height: 100vh;
+    height:fit-content;
     padding-top: 5%;
 }
 
@@ -30,8 +30,9 @@
 
 .home-intro{
     text-align: left;
-    margin-right: 20%;
+    margin-right: 5%;
     margin-left: 10%;
+    width: 70%;
 }
 .home-intro h1{
     margin-bottom: 10px;
@@ -56,4 +57,12 @@
 
 .home-img:hover{
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px){
+
+    .home-img{
+        height: 100px;
+        width: 100px;
+    }
 }

@@ -77,9 +77,18 @@
 
 .head-text{
     position: absolute;
-    bottom: 20%;
-    left: 60%;
-    right: 20%;
+    top: 30%;
+    left: 5%;
+    right: 50%;
+    opacity: 90%;
+}
+
+.head-text h1{
+    color: rgb(253, 253, 253);
+}
+.head-text .texts{
+    color: rgb(83, 14, 14);
+    font-weight: 500;
 }
 
 @media screen and (max-width: 1024px) {
@@ -135,8 +144,9 @@
 
     .head-text{
         position: absolute;
-        bottom: 20%;
-        left: 20%;
+        top: 40%;
+        left: 10%;
         right: 20%;
+        font-size: 1.2rem;
     }
 }

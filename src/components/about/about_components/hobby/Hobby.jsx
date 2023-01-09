@@ -10,7 +10,7 @@ export default function Hobby() {
         <div className="hobby-content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempora?</p>
             <div className="cp-sites">
-                codeforces
+                cp
             </div>
         </div>
     </div>
