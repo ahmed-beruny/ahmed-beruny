@@ -29,7 +29,7 @@ export default function Contacts() {
               <textarea name="message" id="message" cols="30" rows="10"></textarea>
             </div>
             <div className="form-group">
-              <input type="submit" value="Send" />
+              {/* <input type="submit" value="Send" /> */}
             </div>
           </form>
 
