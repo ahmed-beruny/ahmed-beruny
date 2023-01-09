@@ -51,15 +51,15 @@
     border: none;
     outline: none;
     transition: 0.5s;
-    background-color: rgb(105, 105, 105);
-    color: rgb(243, 243, 243);
+    background-color: rgb(216, 203, 203);
+    color: rgb(0, 0, 0);
 }
 .form-group textarea{
     padding: 10px;
     border-radius: 5px;
     border: none;
     transition: 0.5s;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(177, 177, 177);
 }
 
 .form-group input:hover,textarea:hover{

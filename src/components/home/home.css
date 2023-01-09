@@ -1,8 +1,9 @@
 .home-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    
     margin-inline: 10%;
+    margin-top: 30%;
     height: 100vh;
     padding-top: 5%;
 }
