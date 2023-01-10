@@ -11,7 +11,7 @@ export default function Hobby() {
             <h1>CP Platform</h1>
         </div>
         <div className="cp-content">
-          <a href="https://codeforces.com/profile/Beruny_1603029"><img src={cf} alt="" /></a>
+          <a href="https://codeforces.com/profile/AhmedBeruny"><img src={cf} alt="" /></a>
           <a href="https://leetcode.com/beruny10/"><img src={lc} alt="" /></a>
           <a href="https://www.codechef.com/users/beruny_1603029"><img className='cc' src={cc} alt="" /></a>
           
