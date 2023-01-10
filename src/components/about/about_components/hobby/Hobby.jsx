@@ -1,17 +1,20 @@
 import React from 'react'
 import './hobby.css'
+import cf from '../../../../assets/cp_logos/code-forces.ico'
+import lc from '../../../../assets/cp_logos/leetcode.ico'
+import cc from '../../../../assets/cp_logos/codechef.png'
 
 export default function Hobby() {
   return (
-    <div className='hobby-container'>
-        <div className='hobby-title'>
-            <h1>Hobby</h1>
+    <div className='cp-container'>
+        <div className='cp-title'>
+            <h1>CP Platform</h1>
         </div>
-        <div className="hobby-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempora?</p>
-            <div className="cp-sites">
-                cp
-            </div>
+        <div className="cp-content">
+          <a href="https://codeforces.com/profile/Beruny_1603029"><img src={cf} alt="" /></a>
+          <a href="https://leetcode.com/beruny10/"><img src={lc} alt="" /></a>
+          <a href="https://www.codechef.com/users/beruny_1603029"><img className='cc' src={cc} alt="" /></a>
+          
         </div>
     </div>
   )

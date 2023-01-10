@@ -87,8 +87,9 @@
     color: rgb(253, 253, 253);
 }
 .head-text .texts{
-    color: rgb(83, 14, 14);
+    color: #fff;
     font-weight: 500;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 1024px) {
@@ -146,7 +147,7 @@
         position: absolute;
         top: 40%;
         left: 10%;
-        right: 20%;
+        right: 30%;
         font-size: 1.2rem;
     }
 }

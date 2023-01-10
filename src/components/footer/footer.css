@@ -1,6 +1,6 @@
 .footer-container{
     height: 50px;
-    width: 100vw;
+    width: calc(100vw-20px);
     background-color: rgb(31, 26, 26);
     display: flex;
     align-items: center;
