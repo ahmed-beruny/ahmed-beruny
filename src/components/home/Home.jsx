@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import myImg from '../../assets/pro_pic.jpg'
+import CV from '../../assets/cv.pdf'
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       </div>
       <div>
         <img className='home-img' src={myImg} alt="" />
+        <a download="" href={CV} className="cvbutton">Download CV</a>
       </div>
 
     </div>

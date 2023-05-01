@@ -1,6 +1,13 @@
 import React from 'react'
 import './contacts.css'
+import { useForm } from 'react-hook-form';
 export default function Contacts() {
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  
+  const onSubmit = (data) => {
+    // Send email using serverless function or email service provider API
+    console.log(data);
+  };
   return (
     <div className='contacts-container' id='contact'>
 
@@ -15,18 +22,18 @@ export default function Contacts() {
         </div>
 
         <div className="contacts-form">
-          <form action="">
+          <form onSubmit= {handleSubmit(onSubmit)}>
             <div className="form-group">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" {...register("name", { required: true })} />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" {...register("email", { required: true })} />
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" {...register("message", { required: true })}></textarea>
             </div>
             <div className="form-group">
               {/* <input type="submit" value="Send" /> */}

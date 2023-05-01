@@ -53,10 +53,31 @@
     margin-top: 50px;
     border-radius: 20%;
     transition: transform 0.5s;
+    margin-bottom: 20px;
+}
+
+.cvbutton{
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #262222;
+    color: #ffffff;
+    font-size: 1.2rem;
+    /* remove text underline */
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .home-img:hover{
     transform: scale(1.1);
+}
+
+.cvbutton:hover{
+    transform: scale(1.1);
+    background-color: #e8d0d0;
+    color: #241c1c;
 }
 
 @media screen and (max-width: 768px){
