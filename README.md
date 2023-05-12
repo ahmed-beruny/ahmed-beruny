@@ -1,2 +1,1 @@
-[![Beruny's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=ahmed-beruny&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ahmed-beruny/github-readme-stats#gh-dark-mode-only)
-[![Beruny's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=ahmed-beruny&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ahmed-beruny/github-readme-stats#gh-light-mode-only)
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yamin1999" alt="yamin1999" /></a> </p>
