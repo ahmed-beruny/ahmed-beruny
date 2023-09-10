@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 350px;
+    height: 275px;
     background-color: rgb(34, 43, 36);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
