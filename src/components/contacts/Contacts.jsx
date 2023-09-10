@@ -17,8 +17,13 @@ export default function Contacts() {
       body: JSON.stringify(data),
     });
 
-
-
+    //clear form
+    if(res.status === 200){
+      alert('Message sent successfully');
+      document.getElementById('message').value = '';
+    }else{
+      alert('Something went wrong');
+    }
   };
   return (
     <div className='contacts-container' id='contact'>
@@ -37,15 +42,15 @@ export default function Contacts() {
           <form onSubmit= {handleSubmit(onSubmit)}>
             <div className="form-group">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" {...register("name", { required: true })} />
+              <input type="text" name="name" required id="name" {...register("name", { required: true })} />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" {...register("email", { required: true })} />
+              <input type="email" name="email" required id="email" {...register("email", { required: true })} />
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10" {...register("message", { required: true })}></textarea>
+              <textarea name="message" id="message" required cols="30" rows="10" {...register("message", { required: true })}></textarea>
             </div>
             <div className="form-group">
               <input type="submit" value="Send" />
