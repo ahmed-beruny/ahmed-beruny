@@ -4,9 +4,21 @@ import { useForm } from 'react-hook-form';
 export default function Contacts() {
   const { register, handleSubmit } = useForm();
   
-  const onSubmit = (data) => {
+  const onSubmit = async(data) => {
     // Send email using serverless function or email service provider API
+    
     console.log(data);
+
+    const res = await fetch('https://myblogs-d2xr.onrender.com/api/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data),
+    });
+
+
+
   };
   return (
     <div className='contacts-container' id='contact'>
@@ -36,7 +48,7 @@ export default function Contacts() {
               <textarea name="message" id="message" cols="30" rows="10" {...register("message", { required: true })}></textarea>
             </div>
             <div className="form-group">
-              {/* <input type="submit" value="Send" /> */}
+              <input type="submit" value="Send" />
             </div>
           </form>
 
