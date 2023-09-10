@@ -1,8 +1,23 @@
 import React from 'react'
 import './contacts.css'
 import { useForm } from 'react-hook-form';
+import { useState,useEffect } from 'react';
 export default function Contacts() {
   const { register, handleSubmit } = useForm();
+  const [messages, setMessages] = useState([]);
+
+  useEffect(() => {
+    const getMessages = async () => {
+      const res = await fetch('https://myblogs-d2xr.onrender.com/api/messages');
+      const data = await res.json();
+      //reverse the array to show the latest message first
+      data.reverse();
+      //only first 5 messages
+      data.splice(5);
+      setMessages(data);
+    }
+    getMessages();
+  }, []);
   
   const onSubmit = async(data) => {
     // Send email using serverless function or email service provider API
@@ -21,6 +36,8 @@ export default function Contacts() {
     if(res.status === 200){
       alert('Message sent successfully');
       document.getElementById('message').value = '';
+      //reload
+      window.location.reload();
     }else{
       alert('Something went wrong');
     }
@@ -33,9 +50,18 @@ export default function Contacts() {
       </div>
 
       <div className='contacts-body'>
+        
 
         <div className='contacts-left'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus consequatur vel libero!
+        <h1>Last 5 messaged</h1>
+          {
+            messages.map((message) => (
+              <div className='message'>
+                <h3>{message.name}</h3>
+                <p>{message.message}</p>
+              </div>
+            ))
+          }
         </div>
 
         <div className="contacts-form">
@@ -53,7 +79,7 @@ export default function Contacts() {
               <textarea name="message" id="message" required cols="30" rows="10" {...register("message", { required: true })}></textarea>
             </div>
             <div className="form-group">
-              <input type="submit" value="Send" />
+              <button type="submit" value="Send" >submit</button>
             </div>
           </form>
 
