@@ -53,7 +53,7 @@ export default function Contacts() {
         
 
         <div className='contacts-left'>
-        <h1>Last 5 messaged</h1>
+        <h1>Last 5 messages</h1>
           {
             messages.map((message) => (
               <div className='message'>
