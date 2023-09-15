@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Blogcart from './blog-card/Blog_card'
-import AddBlogs from './AddBlogs'
+import AddBlogs from './Addblogs'
 import Popup from '../popup/Popup'
 import './blogs.css'
 export default function Blogs() {
