@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import {Link as LinkRouter} from 'react-router-dom'
 import './header.css'
 
 export default function Header() {
@@ -15,7 +16,7 @@ export default function Header() {
       <div className="nav-bar-center">
         <div className="nav-item"> <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link> </div>
         <div className="nav-item"><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></div>
-        <div className="nav-item"><Link activeClass="active" to="blogs" spy={true} smooth={true} offset={50} duration={500}>Blogs</Link></div>
+        <div className="nav-item"><LinkRouter to= "./blogs">Blogs</LinkRouter></div>
         <div className="nav-item"><Link activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></div>
         <div className="nav-item"><Link activeClass="active" to="works" spy={true} smooth={true} offset={50} duration={500}>Works</Link></div>
         <div className="nav-item"><Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></div>

@@ -3,8 +3,8 @@ import './contacts.css'
 import { useForm } from 'react-hook-form';
 import { useState,useEffect } from 'react';
 export default function Contacts() {
-  const { register, handleSubmit } = useForm();
-  const [messages, setMessages] = useState([]);
+ const { register, handleSubmit } = useForm();
+ const [messages, setMessages] = useState([]);
 
   useEffect(() => {
     const getMessages = async () => {
