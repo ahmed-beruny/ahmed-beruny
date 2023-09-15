@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './blogs.css'
-export default function AddBlogs() {
+export default function Addblogs() {
 
   const [author, setAuthor] = useState('');
   const [image, setImage] = useState('');

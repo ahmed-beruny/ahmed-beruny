@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Blogcart from './blog-card/Blog_card'
-import AddBlogs from './Addblogs'
+import Addblogs from './Addblogs'
 import Popup from '../popup/Popup'
 import './blogs.css'
 export default function Blogs() {
@@ -30,7 +30,7 @@ export default function Blogs() {
         <Popup trigger={showPopup} setTrigger = {
           setShowPopup
         }>
-          <AddBlogs />
+          <Addblogs />
           
         </Popup>
       </div>
