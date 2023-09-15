@@ -23,9 +23,9 @@ export default function Blogs() {
   return (
     <div className='blogs-container' id='blogs'>
       <div className='contacts-title'>
-        <h1>Blogs</h1>
+        <h1>Words</h1>
 
-        <button className='add-blog-btn' onClick={()=>setShowPopup(true)}>Write Something</button>
+        {/* <button className='add-blog-btn' onClick={()=>setShowPopup(true)}>Write Something</button> */}
 
         <Popup trigger={showPopup} setTrigger = {
           setShowPopup

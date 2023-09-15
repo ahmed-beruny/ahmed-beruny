@@ -10,7 +10,7 @@ export default function Blog_cart(props) {
     <figcaption className="card__caption">
       <h2 className="card__title">{props.blog.author}</h2>
       <p className="card__snippet">{props.blog.content}</p>
-      <button onClick={
+      {/* <button onClick={
         async() => {
           const res = await fetch(`https://myblogs-d2xr.onrender.com/api/myblogs/${props.blog._id}`, {
             method: 'DELETE'
@@ -23,7 +23,7 @@ export default function Blog_cart(props) {
           }
           window.location.reload();
         }
-      } className="card__button">Delete</button>
+      } className="card__button">Delete</button> */}
     </figcaption>
   </figure>
 </div>
