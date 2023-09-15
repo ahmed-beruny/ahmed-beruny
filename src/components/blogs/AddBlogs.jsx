@@ -12,7 +12,7 @@ export default function AddBlogs() {
     const blog = {author, image, content};
     console.log(blog);
 
-    const res = await fetch('http://localhost:8000/api/myblogs', {
+    const res = await fetch('https://myblogs-d2xr.onrender.com/api/myblogs', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(blog)
