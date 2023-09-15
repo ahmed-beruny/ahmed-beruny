@@ -24,8 +24,6 @@ export default function AddBlogs() {
       console.log(res);
       alert('Something went wrong');
     }
-
-
   }
 
   const convert64 = (e) => {
