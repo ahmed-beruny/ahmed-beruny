@@ -1,24 +1,25 @@
 import './App.css';
 
+import {useEffect} from 'react';
+
 import Blogs from './components/blogs/Blogs';
 
 import Main from './components/main/Main';
-import ReactGa from 'react-ga';
+import ReactGa from 'react-ga4';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-ReactGa.initialize('UA-182379039-1');
-ReactGa.set({ page: window.location.pathname });
-ReactGa.pageview(window.location.pathname + window.location.search);
+ReactGa.initialize('G-RYN7V761TD');
 
 
 
 function App() {
 
-  ReactGa.event({
-    category: 'User',
-    action: 'User opened the website'
-  });
+  useEffect(() => {
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }
+  );
+
 
   return (
     <Router>
