@@ -1,6 +1,6 @@
 import './App.css';
 
-import {useEffect} from 'react';
+import React, {useEffect} from 'react';
 
 import Blogs from './components/blogs/Blogs';
 
@@ -16,7 +16,7 @@ ReactGa.initialize('G-RYN7V761TD');
 function App() {
 
   useEffect(() => {
-    ReactGa.pageview(window.location.pathname + window.location.search);
+    ReactGa.send({ hitType: 'pageview', page: window.location.pathname });
   }
   );
 
