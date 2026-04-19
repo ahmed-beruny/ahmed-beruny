@@ -34,60 +34,19 @@ I enjoy designing clean architectures, improving performance, and building produ
 ## 🚀 Featured Projects
 
 ### 🎮 Xsolla – Gaming Platform (v3)
-
-*May 2025 – Present*
-
-* Improved performance and modular architecture of a large-scale platform
-* Built responsive UI using **Next.js, TypeScript, styled-components**
-* Integrated **Strapi CMS** for dynamic content management
-* Worked closely with backend APIs and design systems
-
-**Tech:** Next.js · TypeScript · styled-components · Strapi
-
----
+Worked on performance improvements, modular architecture, responsive UI, and Strapi CMS integration.
 
 ### 🏢 PIHR – HR & Employee Management System
-
-*Mar 2024 – Dec 2024*
-
-* Built enterprise HRMS using **microfrontend architecture**
-* Developed isolated modules and integrated via **Module Federation**
-* Ensured scalability and independent deployment of features
-
-**Tech:** React.js · Microfrontends · Module Federation
-
----
+Built HRMS using microfrontend architecture with Module Federation for scalable and independent modules.
 
 ### 🧬 Aurora – Medical Knowledge Base System
-
-* Developed frontend for AI-powered medical knowledge platform
-* Worked with **RAG (Retrieval-Augmented Generation)** systems
-* Built clean UI for healthcare professionals using **React + Tailwind**
-* Integrated with **FastAPI backend** for AI-generated content
-
-**Tech:** React.js · Tailwind CSS · FastAPI · RAG
-
----
+Developed frontend for an AI-powered platform using RAG with React, Tailwind, and FastAPI integration.
 
 ### ⚙️ VMS – Low-Code Platform
-
-* Built a customizable **CRUD generation system**
-* Developed reusable components and dynamic form builders
-* Integrated frontend with **.NET backend**
-* Focused on flexibility, modularity, and usability
-
-**Tech:** React.js · TypeScript
-
----
+Built a customizable CRUD system with reusable components and dynamic form builders integrated with a .NET backend.
 
 ### 🌱 Your Right to Light
-
-*Dec 2025 – Present*
-
-* Working as a **Frontend Developer**
-* Contributing to UI development and frontend architecture
-
-**Tech:** Frontend Development
+Working on frontend development and contributing to UI and architecture.
 
 ---
 
