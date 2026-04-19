@@ -126,8 +126,8 @@ Microfrontends · System Design · Embedded Systems
 
 ## 📫 Contact
 
-* GitHub: https://github.com/your-username
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* GitHub: https://github.com/ahmed-beruny
+* Email: [beruny10@gmail.com](mailto:beruny10@gmail.com)
 
 ---
 
